@@ -60,7 +60,7 @@ ul, li {
   list-style: none;
 }
 
-header, nav, section, article, aside, footer, hgroup {
+header, nav, section, article, aside, hgroup {
   display: block;
 }
 
@@ -106,6 +106,10 @@ p {
 img {
   width: 100%;
   overflow: hidden;
+}
+
+.mision-vision p:hover{
+  color: #ffffffe1;
 }
 
 /* 
@@ -973,21 +977,53 @@ Footer Style
 --------------------------------------------- 
 */
 
-footer p {
-  text-align: center;
-  padding: 30px 0px;
-  color: #fff;
-  font-weight: 300;
+.custom-footer {
+  background-color: #1c1c1c; /* Cambia color de fondo */
+  color: #ddd;              /* Color del texto */
+  padding: 40px 0 20px;     /* Espaciado arriba y abajo */
 }
 
-footer p a {
+/* Contenido interno 
+.footer-container {
+  margin-top: 40px; /* Hace que toda la sección baje un poco 
+}*/
+
+/* Títulos */
+.custom-footer h6 {
   color: #fff;
-  transition: all .3s;
+  margin-bottom: 12px;
+  font-weight: bold;
 }
 
-footer p a:hover {
-  color: #ec6090;
+/* Texto */
+.custom-footer p {
+  margin-bottom: 8px;
+  font-size: 14px;
 }
+
+/* Links del footer */
+.custom-footer a {
+  color: grey;
+  text-decoration: none;
+}
+
+.custom-footer a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+
+.footer-links{
+  margin-top: 60px;
+}
+
+.section-final{
+  margin-top: 10px;
+}
+
+
+
+
 
 /* 
 ---------------------------------------------
