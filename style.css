@@ -1,0 +1,30 @@
+
+nav ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    list-style: none;
+    
+}
+
+nav ul li a{
+    display: block;
+    padding: 10px;
+    color: #0f0d0d;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    background: #eca023
+}
+
+section {
+    padding-top: 50px ;
+}
+header{
+    height: 60px;
+    top: 0;
+    background-color: aqua;
+ 
+}
+
