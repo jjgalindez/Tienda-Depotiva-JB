@@ -1204,11 +1204,11 @@ Featured Games Style
 }
 
 .featured-video {
-  width: 100%;
-  height: 600px;
+  width: 90%;
+  height: 500px;
   object-fit: cover; /* recorta y ajusta el video como fondo */
-  border-radius: 23px;
-  display: block;
+  border-radius: 30px;
+  display: flex;
 }
 
 /* 
