@@ -10,10 +10,9 @@ document.getElementById("formCarta").addEventListener("submit", function(e) {
   const carta = `
   Fecha de invitación: ${fecha}
 
-  Hola, soy ${nombre}, quiero invitarte a Tienda Deportiva JB donde venden guayos de 
-  excelente calidad. 
-  Ofrecen los ultimos modelos disponibles en el mercado y ademas promociones especiales. 
-  Escríbeles  para más detalles. WhatsApp 3137096423`;
+Hola, soy ${nombre}, quiero invitarte a Tienda Deportiva JB donde venden guayos de excelente calidad. 
+Ofrecen los ultimos modelos disponibles en el mercado y ademas promociones especiales. 
+Escríbeles  para más detalles. WhatsApp 3137096423`;
 
 
   
