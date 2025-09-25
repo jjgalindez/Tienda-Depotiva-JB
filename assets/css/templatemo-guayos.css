@@ -149,8 +149,14 @@ p {
 }
 
 .templatemo-item {
-	max-width: 150px; 
+	max-width: 150px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
 	border-radius: 23px;
+}
+
+.templatemo-item:hover {
+  transform: scale(1.05); /* agrandar un poquito */
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3); /* sombra alrededor */
 }
 
 .main-button a {
